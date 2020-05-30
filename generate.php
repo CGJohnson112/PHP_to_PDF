@@ -36,7 +36,7 @@ $dompdf->setPaper('A4', 'portrait');
 $dompdf->render();
 
 //output to browswer
-//$dompdf->stream('message-' .time());
+$dompdf->stream('message-' .time());
 
 //write pdf to directory
 file_put_contents('pdfs/message-' .time().'.pdf', $dompdf->output());

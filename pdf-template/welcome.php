@@ -7,12 +7,14 @@
 </head>
 <body>
 <div class="container-fluid">
+<h2>Applicant Form Responses</h2>
 
-	   Your name is <?php echo $name ?>		<br />
-		and your favorite color is is <?php echo $color ?>	.
-		<br />
-		Your favorite movie is <?php echo $favMovie ?>	.
-		You are here <?php echo $reason ?>. Your favorite computer language is <?php echo $frameLang ?>, and you wanted to comment that <?php echo $comment ?>.	  
+	   Name of client: <b><?php echo $name ?></b>		<br />
+	   Client's favorite color:  <b><?php echo $color ?></b>	 <br />
+	   Favorite movie: <b><?php echo $favMovie ?></b>	<br />
+	   Reason visited: <b><?php echo $reason ?></b> <br />
+	   Favorite computer language:<b><?php echo $frameLang ?></b> <br />
+	   Comment: <b><?php echo $comment ?></b>.	  
 		
 </div>
 	

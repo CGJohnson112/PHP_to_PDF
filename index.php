@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link href="css/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" text="css">
+	<link href="css/style.css" rel="stylesheet">
 	</head>
 <body>
 
 
-<header><h1>Form Test</h1> </header>
+
 <br>
 
 <div class="container">
-
-<h3>ORGANIZATION INFO</h3>
+<header><h1>Form Test</h1> </header>
+<h3>Quick Questionaire</h3>
 <form action ="generate.php" method="post">
 	<div class="form-group">
 		<label>Name:</label>
@@ -57,10 +58,14 @@
 		<button type="reset" class="btn btn-warning">Reset</button>
  		</div>
 	</div>
-</div>
+
 </form>
-
-
+<footer>
+<div class="footer">
+	Copyright &copy; 2020 SuburbanStyle Media. 
+</div>
+</footer>
+</div>
 </body>
 </html>
 
